@@ -1,0 +1,227 @@
+*,
+::after,
+::before{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+}
+body{
+    height: auto;
+    background-color: #88A0A8;
+}
+
+.containermain{
+    position: absolute;
+    width: 700px;
+    height: 100vh;
+    display: grid;
+    grid-row: 1fr 150px 150px 150px 220px;
+    grid-template-columns: 150px 150px 150px 150px ;
+    left : 12%;
+    border-radius: 15%;
+    padding : 60px;
+    background-color: #307351;
+    box-shadow: 3px 3px 20px white;
+}
+
+
+
+#n0, #n1, #n2, #n3, #n4, #n5, #n6, #n7, #n8, #n9 {
+    width: 150px;
+    height: 100px;
+    background-color: #ea9e8d ;
+    border-radius: 50%;
+    opacity: 0.8;
+    text-align: center;
+    box-shadow: 1px 1px 5px #E9EB87; 
+    font-size: 60px;
+    margin: 8px;
+}
+
+
+
+
+#n0:hover{
+    transform: rotate(25deg);
+    transition: transform 0.5s ease;
+
+}
+#n1:hover{
+    transform: rotate(25deg);
+    transition: transform 0.5s ease;
+
+}
+#n2:hover{
+    transform: rotate(-25deg);
+    transition: transform 0.5s ease;
+
+}
+#n3:hover{
+    transform: rotate(25deg);
+    transition: transform 0.5s ease;
+
+}
+#n4:hover{
+    transform: rotate(25deg);
+    transition: transform 0.5s ease;
+
+}
+#n5:hover{
+    transform: rotate(-25deg);
+    transition: transform 0.5s ease;
+
+}
+#n6:hover{
+    transform: rotate(25deg);
+    transition: transform 0.5s ease;
+
+}
+#n7:hover{
+    transform: rotate(-25deg);
+    transition: transform 0.5s ease;
+
+}
+#n8:hover{
+    transform: rotate(25deg);
+    transition: transform 0.5s ease;
+
+}
+
+#n9:hover{
+    transform: rotate(-25deg);
+    transition: transform 0.5s ease;
+
+}
+
+#addition, #soustraction, #multiplication, #division, #result{
+    width: 90%;
+    height: 90%;
+    background-color: #A1CDA8 ;
+    border-radius: 50%;
+    opacity: 0.8;
+    text-align: center;
+    box-shadow: 1px 1px 5px #984447; 
+    font-size: 60px;
+    border: solid 15px black;
+    color: white;
+
+}
+#addition:hover{
+    transform: scale(1.5);
+    transition: transform 0.5s ease;
+
+}
+#soustraction:hover{
+        transform: scale(1.5);
+        transition: transform 0.5s ease;
+
+}
+#multiplication:hover{
+    transform: scale(1.5);
+    transition: transform 0.5s ease;
+}
+
+#division:hover{
+    transform: scale(1.5);
+    transition: transform 0.5s ease;
+
+}
+
+#reset{
+    width: 90%;
+    height: 90%;
+    background-color: #A8201A ;
+    border-radius: 40%;
+    opacity: 0.8;
+    text-align: center;
+
+}
+
+#reset:hover{
+    transform: scale(0.8);
+    transition: transform 0.5s ease;
+
+}
+
+#result:hover{
+    transform: scale(1.5);
+    transition: transform 0.5s ease;
+}
+
+
+
+#output{
+    border-radius: 15%;
+    border: solid 9px black;
+    background-color: #202030;
+    color: white;
+    width: 600px;
+    height: 140px;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 40px;
+    word-break: break-all;
+    
+
+    
+}
+
+#unicorn{
+    width: 70%;
+    height: 90%;
+    background-color: #A8201A ;
+    border-radius: 40%;
+    opacity: 0.8;
+    text-align: center;
+    padding-top: 30%;
+
+}
+
+#unicorn:hover{
+    transform: scale(0.7);
+    transition: transform 0.8s ease-in-out;
+    background-color: #FBBFCA;
+}
+
+#iconeunicorn:hover{
+    transform: scale(3);
+    transition: transform 0.4s ease-in-out;
+   
+}
+#dino{
+    width: 70%;
+    height: 90%;
+    background-color: #AF3800 ;
+    border-radius: 40%;
+    opacity: 0.8;
+    text-align: center;
+    padding-top: 30%;
+
+
+}
+
+#dino:hover{
+    transform: scale(0.7);
+    transition: transform 0.8s ease-in-out;
+    background-color: #FFBA08;
+
+}
+
+#iconedino:hover{
+    transform: scale(3);
+    transition: transform 0.4s ease-in-out;
+   
+}
+
+.buton{
+    border: none;
+    background-color: transparent;
+    font-size: 0.9em;
+}
+
+#reset .buton{
+    position: relative;
+    transform: rotate(-45deg);
+    top: 35px;
+}
